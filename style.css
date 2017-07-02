@@ -1,0 +1,398 @@
+body {
+    background-image: url(img/body_bg.jpg);
+    
+}
+
+a,a:visited {
+    color: #00f;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    overflow: hidden;
+    margin:  auto;
+    padding: 0;
+    width: 1010px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+
+.main_bg {
+    overflow: hidden;
+    margin:  auto;
+    width: 990px;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #008EF0;
+}
+
+.main_body {
+    overflow: hidden;
+    width: 990px;
+    margin:  auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+.header {
+    overflow: hidden;
+    margin-top: -10px;
+    height: 146px;
+}
+
+.logo_img {
+    overflow: hidden;
+    float: left;
+}
+
+.header_img {
+    overflow: hidden;
+    float: left;
+}
+
+.menu {
+    
+    height: 35px;
+    background-image: url(img/menu_bg.jpg);
+    width: 971px;
+    margin-top: -7px;
+}
+
+.menu ul {
+    
+    list-style: none;
+    padding: 0;
+    
+    
+}
+
+.menu ul li {
+    
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    position: relative;
+}
+
+.menu ul li:first-child {
+    border-left:0px solid #ffffff;
+    border-right:1px solid black;
+}
+.menu ul li:last-child {
+    border-left:1px solid black;
+    border-right:0px solid #ffffff;
+}
+
+.menu ul li a {
+    
+    text-decoration: none;
+    color: black;
+    padding:7px 15px;
+}
+
+.menu ul li a:hover {
+    
+    background-color: aquamarine;
+}
+
+.menu ul li ul {
+    visibility: hidden;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+    background-color: white;
+    
+    
+}
+
+.menu ul li:hover ul li {
+    position: relative;
+    border: none!important;
+    width: 150px;
+    text-align: left;
+}
+
+.menu ul li:hover ul li a {
+    width: 150px;
+}
+
+.menu ul li:hover ul li a:hover {
+    background-color: bisque;
+    
+}
+
+.container {
+    overflow: hidden;
+    width: 971px;
+    
+}
+
+.content {
+    overflow: hidden;
+    width: 660px;
+    float: left;
+}
+
+.banner {
+    
+    width: 660px;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+    height: 285px;
+    margin-bottom: 10px;
+}
+
+.banner img {
+    
+    padding: 10px;
+}
+
+
+.text {
+    
+    background-color: #fff;
+    width: 660px;
+    float: left;
+}
+
+.n_text {
+    float: left;
+    width: 620px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #C6C6C6;
+    padding: 10px;
+    
+}
+
+.date_text {
+    width: 120px;
+    float: left;
+}
+
+.main_text {
+    background-color: #fff;
+    width: 480px;
+    float: left;
+    padding: 10px;
+}
+
+.date {
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+}
+
+.month_year {
+    padding-left: 52px;
+    font-size: 17px;
+    
+}
+
+.auth_text {
+    float: left;
+    border-top: 1px solid #a6a6a6;
+    width: 100px;
+    font-size: 15px;
+    line-height: 5px;
+    text-align: center;
+    
+}
+
+.auth_text p {
+    
+}
+
+.auth_text a {
+    
+}
+
+.page {
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.page a {
+    background: #F8F8F8;
+    
+    padding: 8px;
+    border: 1px solid #CBCDD2;
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.page a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.sidebar {
+    margin-left: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 10px;
+    width: 301px;
+    float: left;
+}
+
+.advertise {
+    padding: 10px;
+}
+
+.subscriber {
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    background-image: url(img/subscribe_bg.jpg);
+}
+
+.subscriber h2 {
+    padding-top: 0;
+    margin-top: 0;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.subscriber p {
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.subscribe_form input {
+    border: 1px solid #fff;
+    height: 24px;
+    margin-top: 10px;
+    width: 200px;
+    color: #ffffff;
+    background: none;
+    
+}
+
+.subscribe_form {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.sub_button {
+    background:url(img/button_bg.jpg) no-repeat!important;
+	border:none!important;
+	width:84px!important;
+	color:#000!important;
+	font-weight:bold!important;
+}
+
+.quote {
+    margin: 10px;
+    border-bottom: 4px solid black;
+    height: 200px;
+}
+
+.quote h2 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.quote a {
+    float: right;
+    
+}
+
+.news {
+    margin: 10px;
+    height: 380px;
+    border-bottom: 4px solid black;
+}
+
+.news h2 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.sidebar_news_date {
+    background: url(img/bullet.jpg) no-repeat scroll 0% 60%;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #949494;
+}
+
+.news a {
+    color: #5a5a5a;
+}
+
+.news a:visited {
+    color: #5a5a5a;
+}
+
+.footer {
+    width:100%;
+	color:#fff;
+	
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
